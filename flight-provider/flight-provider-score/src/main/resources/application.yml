@@ -1,0 +1,15 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: flight-provider-score
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8081/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}

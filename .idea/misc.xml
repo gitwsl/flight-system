@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-common/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-provider/flight-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-provider/fligth-provider-score/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-provider-api/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-provider-api/flight-provider-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-gateway1/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-provider-api/flight-provider-score-api/pom.xml" />
+        <option value="$PROJECT_DIR$/flight-provider/flight-provider-persistence/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

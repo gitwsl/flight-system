@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flight-provider-persistence" />
+        <module name="flight-provider-score" />
+        <module name="flight-common" />
+        <module name="flight-provider-score-api" />
+        <module name="flight-provider-user" />
+        <module name="flight-eureka" />
+        <module name="flight-provider-user-api" />
+        <module name="flight-provider" />
+        <module name="flight-gateway" />
+        <module name="flight-provider-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="flight-common" target="1.8" />
+      <module name="flight-eureka" target="1.8" />
+      <module name="flight-gateway" target="1.8" />
+      <module name="flight-provider" target="1.8" />
+      <module name="flight-provider-api" target="1.8" />
+      <module name="flight-provider-persistence" target="1.8" />
+      <module name="flight-provider-score" target="1.8" />
+      <module name="flight-provider-score-api" target="6" />
+      <module name="flight-provider-user" target="1.8" />
+      <module name="flight-provider-user-api" target="1.8" />
+      <module name="flight-system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="flight-common" options="-parameters" />
+      <module name="flight-eureka" options="-parameters" />
+      <module name="flight-gateway" options="-parameters" />
+      <module name="flight-provider" options="-parameters" />
+      <module name="flight-provider-api" options="-parameters" />
+      <module name="flight-provider-persistence" options="-parameters" />
+      <module name="flight-provider-score" options="-parameters" />
+      <module name="flight-provider-score-api" options="-parameters" />
+      <module name="flight-provider-user" options="-parameters" />
+      <module name="flight-provider-user-api" options="-parameters" />
+      <module name="flight-system" options="-parameters" />
+    </option>
+  </component>
+</project>
