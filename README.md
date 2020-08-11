@@ -31,8 +31,14 @@ hystrix-dashboard 服务熔断
 config-server 配置中心
 gateway-server 网关
 
-MQ没使用，因为部队使用，并发量小
-缓存redis，习题，因为习题基本不变动
 入口：
 swagger: 
 http://localhost:8080/swagger-ui.html
+
+
+
+##########
+知识点
+1、习题系统启动后，redis缓存所有习题
+2、获取某人编辑的习题，通过feign rpc调用
+3、成绩系统计算出成绩，扔到kafka，持久化消费落库

@@ -2,7 +2,7 @@ package com.wsl.provider.web.frontend;
 
 import com.alibaba.fastjson.JSON;
 import com.wsl.api.UserFeignApi;
-import com.wsl.flight.common.response.ResultDataEntity;
+import com.wsl.flight.common.response.ResponseObject;
 import com.wsl.provider.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -28,7 +28,7 @@ public class UserFeign implements UserFeignApi {
     public String selectById(@ApiParam(name = "userInfo", value = "查询用户信息") @PathVariable("id") Long id) {
         log.info("id is {}, userVO = {}", id, userService.selectById(id));
 //        return JSON.toJSONString(userService.selectById(id));
-        return JSON.toJSONString(new ResultDataEntity(200, "获取信息成功", userService.selectById(id)));
+        return JSON.toJSONString(ResponseObject.ofSuccess( userService.selectById(id)));
     }
 
     @RequestMapping(value = "test", method = RequestMethod.GET)

@@ -13,6 +13,7 @@
         <module name="flight-provider-user" />
         <module name="flight-eureka" />
         <module name="flight-provider-user-api" />
+        <module name="flight-provider-exercise" />
         <module name="flight-provider" />
         <module name="flight-gateway" />
         <module name="flight-provider-api" />
@@ -25,6 +26,7 @@
       <module name="flight-gateway" target="1.8" />
       <module name="flight-provider" target="1.8" />
       <module name="flight-provider-api" target="1.8" />
+      <module name="flight-provider-exercise" target="1.8" />
       <module name="flight-provider-persistence" target="1.8" />
       <module name="flight-provider-score" target="1.8" />
       <module name="flight-provider-score-api" target="6" />
@@ -41,6 +43,7 @@
       <module name="flight-gateway" options="-parameters" />
       <module name="flight-provider" options="-parameters" />
       <module name="flight-provider-api" options="-parameters" />
+      <module name="flight-provider-exercise" options="-parameters" />
       <module name="flight-provider-persistence" options="-parameters" />
       <module name="flight-provider-score" options="-parameters" />
       <module name="flight-provider-score-api" options="-parameters" />

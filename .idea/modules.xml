@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/flight-gateway/flight-gateway.iml" filepath="$PROJECT_DIR$/flight-gateway/flight-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/flight-provider/flight-provider.iml" filepath="$PROJECT_DIR$/flight-provider/flight-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/flight-provider-api/flight-provider-api.iml" filepath="$PROJECT_DIR$/flight-provider-api/flight-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flight-provider/flight-provider-exercise/flight-provider-exercise.iml" filepath="$PROJECT_DIR$/flight-provider/flight-provider-exercise/flight-provider-exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/flight-provider/flight-provider-persistence/flight-provider-persistence.iml" filepath="$PROJECT_DIR$/flight-provider/flight-provider-persistence/flight-provider-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/flight-provider/flight-provider-score/flight-provider-score.iml" filepath="$PROJECT_DIR$/flight-provider/flight-provider-score/flight-provider-score.iml" />
       <module fileurl="file://$PROJECT_DIR$/flight-provider-api/flight-provider-score-api/flight-provider-score-api.iml" filepath="$PROJECT_DIR$/flight-provider-api/flight-provider-score-api/flight-provider-score-api.iml" />
