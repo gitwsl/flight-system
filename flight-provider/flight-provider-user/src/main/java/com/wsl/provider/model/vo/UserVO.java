@@ -1,5 +1,6 @@
 package com.wsl.provider.model.vo;
 
+import com.wsl.flight.common.model.vo.BaseVO;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserVO{
+public class UserVO extends BaseVO {
 //    @NotBlank(message = "用户名不能为空")
     private String name;
 

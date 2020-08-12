@@ -1,6 +1,9 @@
 package com.wsl.provider.service;
 
+import com.wsl.provider.model.vo.ExerciseVO;
 import com.wsl.provider.model.vo.UserVO;
+
+import java.util.List;
 
 /**
  * @author lin.wang
@@ -13,4 +16,6 @@ public interface UserService {
 	 * @return UserVO
 	 */
 	UserVO selectById(Long id);
+
+	List<ExerciseVO> selectExerciseListByUserId(Long id);
 }

@@ -16,6 +16,8 @@
     <modules>
         <module>flight-provider-user-api</module>
         <module>flight-provider-score-api</module>
+        <module>flight-provider-exercise-api</module>
+        <module>flight-provider-persistence-api</module>
     </modules>
 
     <properties>

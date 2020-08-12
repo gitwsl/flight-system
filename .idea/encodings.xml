@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/flight-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flight-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flight-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flight-provider-api/flight-provider-exercise-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flight-provider-api/flight-provider-persistence-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flight-provider-api/flight-provider-score-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flight-provider-api/flight-provider-user-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flight-provider/flight-provider-exercise/src/main/java" charset="UTF-8" />

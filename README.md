@@ -40,5 +40,6 @@ http://localhost:8080/swagger-ui.html
 ##########
 知识点
 1、习题系统启动后，redis缓存所有习题
-2、获取某人编辑的习题，通过feign rpc调用
+2、获取某人编辑的习题，通过feign rpc调用   selectExerciseListByUserId
+http://localhost:8091/flight/provider/user/selectExerciseListByUserId?id=1
 3、成绩系统计算出成绩，扔到kafka，持久化消费落库

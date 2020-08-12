@@ -1,6 +1,6 @@
 package com.wsl.provider.web.rpc;
 
-import com.wsl.api.UserFeignApi;
+import com.wsl.service.UserFeignApi;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,4 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 public class UserFeignClient implements UserFeignApi {
+    @Override
+    public String find() {
+        return null;
+    }
 }

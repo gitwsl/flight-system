@@ -25,6 +25,11 @@
             <version>1.0.0</version>
         </dependency>
         <dependency>
+            <groupId>com.wsl</groupId>
+            <artifactId>flight-provider-exercise-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
