@@ -5,6 +5,7 @@ import com.wsl.provider.dao.UserDAO;
 import com.wsl.provider.model.vo.UserVO;
 import com.wsl.provider.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import lombok.val;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,9 +27,13 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserVO selectById(Long id) {
 //		log.info("查询用户信息. id ={}", id);
-        log.info("****************" + scoreFeignApi.find() + "****************");
-        log.info("****************" + scoreFeignApi.select(1L) + "****************");
-        return userDAO.selectById(id);
+        final String s = scoreFeignApi.find();
+        log.info("****************" + s + "****************");
+        final String select = scoreFeignApi.select(1L);
+        log.info("****************" + select + "****************");
+        final UserVO userVO = new UserVO();
+        userVO.setName(s  +"\n" + select);
+        return userVO;
 
     }
 }

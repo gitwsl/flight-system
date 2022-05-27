@@ -26,7 +26,7 @@ public class UserFeign implements UserFeignApi {
     @RequestMapping(value = "{id}", method = RequestMethod.GET)
     @ApiOperation(httpMethod = "GET", value = "根据ID获取用户信息")
     public String selectById(@ApiParam(name = "userInfo", value = "查询用户信息") @PathVariable("id") Long id) {
-        log.info("id is {}, userVO = {}", id, userService.selectById(id));
+//        log.info("id is {}, userVO = {}", id, userService.selectById(id));
 //        return JSON.toJSONString(userService.selectById(id));
         return JSON.toJSONString(new ResultDataEntity(200, "获取信息成功", userService.selectById(id)));
     }
@@ -34,7 +34,7 @@ public class UserFeign implements UserFeignApi {
     @RequestMapping(value = "test", method = RequestMethod.GET)
     @ApiOperation(httpMethod = "GET", value = "test-根据ID获取用户信息")
     public String test(@ApiParam(name = "userInfo", value = "test-查询用户信息") @RequestParam("id") Long id) {
-        log.info("id is {}, userVO = {}", id, userService.selectById(id));
+//        log.info("id is {}, userVO = {}", id, userService.selectById(id));
         return JSON.toJSONString(userService.selectById(id));
     }
 

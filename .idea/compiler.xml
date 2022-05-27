@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flight-provider-persistence" />
-        <module name="flight-provider-score" />
-        <module name="flight-common" />
         <module name="flight-provider-score-api" />
-        <module name="flight-provider-user" />
-        <module name="flight-eureka" />
-        <module name="flight-provider-user-api" />
-        <module name="flight-provider" />
-        <module name="flight-gateway" />
+        <module name="flight-provider-score" />
         <module name="flight-provider-api" />
+        <module name="flight-common" />
+        <module name="flight-provider-user-api" />
+        <module name="flight-provider-user" />
+        <module name="flight-gateway" />
+        <module name="flight-provider-persistence" />
+        <module name="flight-eureka" />
+        <module name="flight-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
